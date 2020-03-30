@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "OverlayContainer",
+        "repositoryURL": "https://github.com/applidium/OverlayContainer.git",
+        "state": {
+          "branch": null,
+          "revision": "f0f5f4db288675ad3d8546028199eba8c899d9a1",
+          "version": "3.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
