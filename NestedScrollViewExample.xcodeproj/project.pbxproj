@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,6 @@
 		48330F9C24228DF10052CCF2 /* NestedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48330F9B24228DF10052CCF2 /* NestedScrollViewController.swift */; };
 		48330F9E24228E190052CCF2 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48330F9D24228E190052CCF2 /* ExampleViewController.swift */; };
 		48330FA0242290CD0052CCF2 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48330F9F242290CD0052CCF2 /* BottomSheetViewController.swift */; };
-		48330FA72422A8370052CCF2 /* OverlayContainer in Frameworks */ = {isa = PBXBuildFile; productRef = 48330FA62422A8370052CCF2 /* OverlayContainer */; };
 		48330FA92422AAC60052CCF2 /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48330FA82422AAC60052CCF2 /* PassThroughView.swift */; };
 		48330FAB242309A70052CCF2 /* ScrollViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48330FAA242309A70052CCF2 /* ScrollViewDelegateProxy.swift */; };
 		48330FAD2423CBDA0052CCF2 /* ScrollViewCaringGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48330FAC2423CBDA0052CCF2 /* ScrollViewCaringGestureRecognizer.swift */; };
@@ -141,7 +140,6 @@
 			files = (
 				48ED31E723FC133700858AF9 /* NestedScrollView.framework in Frameworks */,
 				E0183E8283E5FF0CEF1E74F5 /* Pods_NestedScrollViewExample.framework in Frameworks */,
-				48330FA72422A8370052CCF2 /* OverlayContainer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +324,6 @@
 			);
 			name = NestedScrollViewExample;
 			packageProductDependencies = (
-				48330FA62422A8370052CCF2 /* OverlayContainer */,
 			);
 			productName = NestedScrollViewExample;
 			productReference = 48ED319A23FC131E00858AF9 /* NestedScrollViewExample.app */;
@@ -452,7 +449,6 @@
 			);
 			mainGroup = 48ED319123FC131E00858AF9;
 			packageReferences = (
-				48330FA52422A8370052CCF2 /* XCRemoteSwiftPackageReference "OverlayContainer" */,
 			);
 			productRefGroup = 48ED319B23FC131E00858AF9 /* Products */;
 			projectDirPath = "";
@@ -1177,25 +1173,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		48330FA52422A8370052CCF2 /* XCRemoteSwiftPackageReference "OverlayContainer" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/applidium/OverlayContainer.git";
-			requirement = {
-				kind = exactVersion;
-				version = 3.3.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		48330FA62422A8370052CCF2 /* OverlayContainer */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 48330FA52422A8370052CCF2 /* XCRemoteSwiftPackageReference "OverlayContainer" */;
-			productName = OverlayContainer;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48ED319223FC131E00858AF9 /* Project object */;
 }
